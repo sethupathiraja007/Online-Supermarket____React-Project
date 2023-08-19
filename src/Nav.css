@@ -1,0 +1,36 @@
+/* .logo img {
+    width: 100px;
+} */
+#mynavbar ul li a {
+    color: white;
+}
+
+/* #mynavbar ul li a{
+    display: flex;
+    justify-content: end;
+} */
+/* .modal-body .mano {
+    
+} */
+
+.list ul li a {
+    display: flex;
+    justify-content: end;
+    align-items: center;
+    margin: 0;
+    padding: 0;
+}
+.navbar{
+    background-color: rgb(153,201,203);
+}
+
+/* .list ul  {
+    align-items:center;
+} */
+#super {
+    color:black;
+}
+.modal-backdrop.show{
+    opacity:0;
+    display: none;
+}

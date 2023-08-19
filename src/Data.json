@@ -1,0 +1,549 @@
+{
+  "vegetable": [
+    {
+      "id": "1",
+      "name": "Onion",
+      "detail": "60",
+      "image": "./vegetables/img1.jpg",
+      "wish": false,
+      "wish1": false,
+      "ad1": false,
+      "ad2": false
+    },
+    {
+      "id": "2",
+      "name": "Potato",
+      "detail": "45.00",
+      "image": "./vegetables/po.jpg",
+      "wish": false,
+      "wish1": false,
+      "ad1": false,
+      "ad2": false
+    },
+    {
+      "id": "3",
+      "name": "Carrot",
+      "detail": "100.00",
+      "image": "./vegetables/carot.jpg",
+      "wish": false,
+      "wish1": false,
+      "ad1": false,
+      "ad2": false
+    },
+    {
+      "id": "4",
+      "name": "Tomato",
+      "detail": "80.00",
+      "image": "./vegetables/tom.jpg",
+      "wish": false,
+      "wish1": false,
+      "ad1": false,
+      "ad2": false
+    },
+    {
+      "id": "5 ",
+      "name": "Broccoli",
+      "detail": "125.00",
+      "image": "./vegetables/bro.jpg",
+      "wish": false,
+      "wish1": false,
+      "ad1": false,
+      "ad2": false
+    },
+    {
+      "id": "6",
+      "name": "Ladies' Fingers",
+      "detail": "65.00",
+      "image": "./vegetables/b.jpg",
+
+      "wish": false,
+      "wish1": false
+    },
+    {
+      "id": "7",
+      "name": "Cucumber",
+      "detail": "35.00",
+      "image": "./vegetables/cucu.jpg",
+      "wish": false,
+      "wish1": false
+    },
+    {
+      "id": "8",
+      "name": "Capsicum - Green",
+      "detail": "90.00",
+      "image": "./vegetables/mii.jpg",
+      "wish": false,
+      "wish1": false
+    },
+    {
+      "id": "9",
+      "name": "Coriander Leaves",
+      "detail": "30.00",
+      "image": "./vegetables/ca.jpg",
+      "wish": false,
+      "wish1": false
+    },
+    {
+      "id": "10",
+      "name": "Cauliflower",
+      "detail": "130.00",
+      "image": "./vegetables/caul.jpg",
+      "wish": false,
+      "wish1": false
+    },
+    {
+      "id": "11 ",
+      "name": "Beans",
+      "detail": "80.00",
+      "image": "./vegetables/beans.jpg",
+      "wish": false,
+      "wish1": false
+    },
+    {
+      "id": "12",
+      "name": "knolkhol",
+      "detail": "57.00",
+      "image": "./vegetables/knolkhol.jpg",
+      "wish": false,
+      "wish1": false
+    },
+    {
+      "id": "13 ",
+      "name": "Beetroot",
+      "detail": "52.00",
+      "image": "./vegetables/pe.jpg",
+      "wish": false,
+      "wish1": false
+    },
+    {
+      "id": "14",
+      "name": "Mushrooms",
+      "detail": "368.00",
+      "image": "./vegetables/mush.jpg",
+      "wish": false,
+      "wish1": false
+    },
+    {
+      "id": "15",
+      "name": "Cabbage",
+      "detail": "75.00",
+      "image": "./vegetables/co.jpg",
+      "wish": false,
+      "wish1": false
+    },
+    {
+      "id": "16",
+      "name": "Chilli - Green",
+      "detail": "34.00",
+      "image": "./vegetables/mi.jpg",
+      "wish": false,
+      "wish1": false
+    },
+    {
+      "id": "17",
+      "name": "Sweet Corn",
+      "detail": "250.00",
+      "image": "./vegetables/corn.jpg",
+      "wish": false,
+      "wish1": false
+    },
+    {
+      "id": " 18",
+      "name": "LeavCurryes",
+      "detail": "23.00",
+      "image": "./vegetables/curry.jpg",
+      "wish": false,
+      "wish1": false
+    },
+    {
+      "id": "19",
+      "name": "Ginger",
+      "detail": "123.00",
+      "image": "./vegetables/inch.jpg",
+      "wish": false,
+      "wish1": false
+    },
+    {
+      "id": "20",
+      "name": "Pudina",
+      "detail": "44.00",
+      "image": "./vegetables/ko.jpg",
+      "wish": false,
+      "wish1": false
+    }
+  ],
+  "fruits": [
+    {
+      "name": "Jack Fruit",
+      "id": "1",
+      "detail": "160.00",
+      "image": "./fruits/jack.jpg",
+      "wish": false,
+      "wish1": false
+    },
+    {
+      "name": "Kiwi Fruit",
+      "id": "2",
+      "detail": "260.00",
+      "image": "./fruits/kiwi.jpg",
+      "wish": false,
+      "wish1": false
+    },
+    {
+      "name": "Dragon Fruit ",
+      "id": "3",
+      "detail": "450.00",
+      "image": "./fruits/dragon.jpg",
+      "wish": false,
+      "wish1": false
+    },
+    {
+      "name": "Water Melon Yellow",
+      "id": "4",
+      "detail": "60.00",
+      "image": "./fruits/wa ye.jpg",
+      "wish": false,
+      "wish1": false
+    },
+    {
+      "name": "Litchi ",
+      "id": "5",
+      "detail": "344.00",
+      "image": "./fruits/litchi.jpg",
+      "wish": false,
+      "wish1": false
+    },
+    {
+      "name": "Mango",
+      "id": "6",
+      "detail": "60.00",
+      "image": "./fruits/mango.jpg",
+      "wish": false,
+      "wish1": false
+    },
+    {
+      "name": "Pineapple",
+      "id": "7",
+      "detail": "120.00",
+      "image": "./fruits/pineapple.jpg",
+      "wish": false,
+      "wish1": false
+    },
+    {
+      "name": "Plums",
+      "id": "8",
+      "detail": "240.00",
+      "image": "./fruits/plums.jpg",
+      "wish": false,
+      "wish1": false
+    },
+    {
+      "name": "Banana",
+      "id": "9",
+      "detail": "60.00",
+      "image": "./fruits/1.jpg",
+      "wish": false,
+      "wish1": false
+    },
+    {
+      "name": "Amla",
+      "id": "10",
+      "detail": "120.00",
+      "image": "./fruits/amla.jpg",
+      "wish": false,
+      "wish1": false
+    },
+    {
+      "name": "Avocado ",
+      "id": "11",
+      "detail": "310.00",
+      "image": "./fruits/ava.jpg",
+      "wish": false,
+      "wish1": false
+    },
+    {
+      "name": "Pear Beauty",
+      "id": "12",
+      "detail": "140.00",
+      "image": "./fruits/pear.jpg",
+      "wish": false,
+      "wish1": false
+    },
+    {
+      "name": "Muskmelon Thai ",
+      "id": "13",
+      "detail": "200.00",
+      "image": "./fruits/musk.jpg",
+      "wish": false,
+      "wish1": false
+    },
+    {
+      "name": "Orange",
+      "id": "14",
+      "detail": "140.00",
+      "image": "./fruits/orange.jpg",
+      "wish": false,
+      "wish1": false
+    },
+    {
+      "name": "Papaya",
+      "id": "15",
+      "detail": "120.00",
+      "image": "./fruits/papaya.jpg",
+      "wish": false,
+      "wish1": false
+    },
+    {
+      "name": "Rambutan",
+      "id": "16",
+      "detail": "360.00",
+      "image": "./fruits/ja.jpg",
+      "wish": false,
+      "wish1": false
+    },
+    {
+      "name": "Sapota",
+      "id": "17",
+      "detail": "45.00",
+      "image": "./fruits/sap.jpg",
+      "wish": false,
+      "wish1": false
+    },
+    {
+      "name": "Watermelon Kiran",
+      "id": "18",
+      "detail": "160.00",
+      "image": "./fruits/wa ki.jpg",
+      "wish": false,
+      "wish1": false
+    },
+    {
+      "name": "Watermelon Red",
+      "id": "19",
+      "detail": "70.00",
+      "image": "./fruits/wa re.jpg",
+      "wish": false,
+      "wish1": false
+    },
+    {
+      "name": "Pomegranate Arakta",
+      "id": "20",
+      "detail": "110.00",
+      "image": "./fruits/pog.jpg",
+      "wish": false,
+      "wish1": false
+    }
+  ],
+  "rice": [
+    {
+      "name": "Indiagate Basmati Rice",
+      "id": "1",
+      "detail": "65",
+      "image": "./card1/img1.jpg",
+      "wish": false,
+      "wish1": false
+    },
+    {
+      "name": "RC Idly Rice",
+      "id": "2",
+      "detail": "50",
+      "image": "./card1/img2.jpg",
+      "wish": false,
+      "wish1": false
+    },
+    {
+      "name": "BVK Boiled Rice ",
+      "id": "3",
+      "detail": "56",
+      "image": "./card1/img3.jpg",
+      "wish": false,
+      "wish1": false
+    },
+    {
+      "name": "DAAWAT Rice",
+      "id": "4",
+      "detail": "54",
+      "image": "./card1/img4.jpg",
+      "wish": false,
+      "wish1": false
+    },
+    {
+      "name": "HERITAGE Basmati Rice ",
+      "id": "5",
+      "detail": "58",
+      "image": "./card1/img5.jpg",
+      "wish": false,
+      "wish1": false
+    },
+    {
+      "name": "Basmati Rice",
+      "id": "6",
+      "detail": "64",
+      "image": "./card1/img6.jpg",
+      "wish": false,
+      "wish1": false
+    }
+  ],
+  "dol": [
+    {
+      "name": " Tur Dal",
+      "id": "1",
+      "detail": "129",
+      "image": "./dol/img6.jpg",
+      "wish": false,
+      "wish1": false
+    },
+    {
+      "name": "Channa Dal",
+      "id": "2",
+      "detail": "150",
+      "image": "./dol/img1.jpg",
+      "wish": false,
+      "wish1": false
+    },
+    {
+      "name": "Masoor Dal ",
+      "id": "3",
+      "detail": "90",
+      "image": "./dol/img4.jpg",
+      "wish": false,
+      "wish1": false
+    },
+    {
+      "name": "Moong Dal",
+      "id": "4",
+      "detail": "120",
+      "image": "./dol/img5.jpg",
+      "wish": false,
+      "wish1": false
+    },
+    {
+      "name": "Green Peas ",
+      "id": "5",
+      "detail": "120",
+      "image": "./dol/img3.jpg",
+      "wish": false,
+      "wish1": false
+    },
+    {
+      "name": "White Peas",
+      "id": "6",
+      "detail": "110",
+      "image": "./dol/img7.jpg",
+      "wish": false,
+      "wish1": false
+    },
+    {
+      "name": "Green Moong",
+      "id": "7",
+      "detail": "113",
+      "image": "./dol/img2.jpg",
+      "wish": false,
+      "wish1": false
+    }
+  ],
+  "oil": [
+    {
+      "name": "RKG Ghee",
+      "id": "1",
+      "detail": "600",
+      "image": "./oil/img1.jpg",
+      "wish": false,
+      "wish1": false
+    },
+    {
+      "name": "Sesame Oil",
+      "id": "2",
+      "detail": "220",
+      "image": "./oil/img2.jpg",
+      "wish": false,
+      "wish1": false
+    },
+    {
+      "name": " Coconut Oil ",
+      "id": "3",
+      "detail": "175",
+      "image": "./oil/img3.jpg",
+      "wish": false,
+      "wish1": false
+    },
+    {
+      "name": "Gingelly Oil",
+      "id": "4",
+      "detail": "140",
+      "image": "./oil/img4.jpg",
+      "wish": false,
+      "wish1": false
+    },
+    {
+      "name": " Groundnut Oil ",
+      "id": "5",
+      "detail": "220",
+      "image": "./oil/img5.jpg",
+      "wish": false,
+      "wish1": false
+    },
+    {
+      "name": " Lamp Oil ",
+      "id": "6",
+      "detail": "310",
+      "image": "./oil/img6.jpg",
+      "wish": false,
+      "wish1": false
+    },
+    {
+      "name": "Rice Bran Oil ",
+      "id": "7",
+      "detail": "₹150",
+      "image": "./oil/img7.jpg",
+      "wish": false,
+      "wish1": false
+    },
+    {
+      "name": "SKC Ghee",
+      "id": "8",
+      "detail": "₹660",
+      "image": "./oil/img8.jpg",
+      "wish": false,
+      "wish1": false
+    }
+  ],
+  "select": [
+    {
+      "name": "VEGETABLES",
+      "id": "1",
+      "image": "./vegetables/carot.jpg",
+      "bathname": "/cardloop"
+    },
+    {
+      "name": "FRUITS",
+      "id": "2",
+      "image": "./fruits/mango.jpg",
+      "bathname": "/fruitscard"
+    },
+    {
+      "name": "RICE",
+      "id": "3",
+      "image": "./card1/img2.jpg",
+      "bathname": "/card1"
+    },
+    {
+      "name": "DAL",
+      "id": "4",
+      "image": "./dol/img1.jpg",
+      "bathname": "/card2"
+    },
+    {
+      "name": "OIL & GHEE",
+      "id": "5",
+      "image": "./oil/img1.jpg",
+      "bathname": "/card3"
+    },
+    {
+      "name": "FISH & MEAT",
+      "id": "6",
+      "image": "./oil/12.jpg",
+      "bathname": ""
+    }
+  ]
+}

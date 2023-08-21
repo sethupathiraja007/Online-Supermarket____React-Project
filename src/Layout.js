@@ -16,11 +16,13 @@ import Add from "./Add.js";
 import Heart from "./Heart.js";
 import Cart from "./Cart.js";
 import Foot from "./Foot.js";
+import Head from "./head.js";
 
 export default function Layout() {
   return (
     <div>
       <Router>
+        <Head/>
         <Routes>
           <Route exact path="/Online-Supermarket____React-Project" element={<Welcome />}></Route>
           <Route path="/nav" element={<Nav />}></Route>
@@ -38,6 +40,7 @@ export default function Layout() {
           <Route path="/heart" element={<Heart />}></Route>
           <Route path="/cart" element={<Cart />}></Route>
           <Route path="/foot" element={<Foot />}></Route>
+          <Route path="/head" element={< Head/>}></Route>
         </Routes>
       </Router>
     </div>

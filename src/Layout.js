@@ -22,7 +22,7 @@ export default function Layout() {
     <div>
       <Router>
         <Routes>
-          <Route exact path="/" element={<Welcome />}></Route>
+          <Route exact path="/Online-Supermarket____React-Project" element={<Welcome />}></Route>
           <Route path="/nav" element={<Nav />}></Route>
           <Route path="/nav2" element={<Nav2 />}></Route>
           <Route path="/carousal1" element={<Carousal1 />}></Route>

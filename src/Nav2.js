@@ -192,7 +192,7 @@ export default function Nav2() {
                 </li>
                 <li className="nav-item " style={{ listStyleType: "none" }}>
                   <a className="nav-link">
-                    <Link to="/" style={{ padding: "3px" }}>
+                    <Link to="/Online-Supermarket____React-Project" style={{ padding: "3px" }}>
                       <button
                         onClick={remove}
                         style={{

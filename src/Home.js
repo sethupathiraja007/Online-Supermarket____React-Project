@@ -1,6 +1,5 @@
 import React from "react";
 import Carousal1 from "./Carousal1";
-
 import Nav2 from "./Nav2";
 import Newcard from "./Newcard";
 
@@ -13,7 +12,7 @@ export default function Home() {
 
       <div className="container-fluid">
         <Newcard />
-      </div>
+      </div> 
     
     </div>
   );

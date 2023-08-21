@@ -3,6 +3,7 @@ import datas from "./Data.json";
 import img from "./sl1.png";
 import img1 from "./rice.png";
 import Nav2 from "./Nav2";
+import mea from "./mea.jpg";
 import veglogo from "./tom.jpg";
 import fruitslogo from "./1.jpg";
 import oillogo from "./img7.jpg";
@@ -29,7 +30,7 @@ export default function Card1() {
   var sessionget = JSON.parse(sessionStorage.getItem("veg"));
   const [users, setUsers] = useState(sessionget ? sessionget : initial2);
   sessionStorage.setItem("veg", JSON.stringify(users));
-  console.log(users);
+  console.log(users); 
   console.log(sessionget);
 
   var add = (user) => {
@@ -119,6 +120,13 @@ export default function Card1() {
               {" "}
               <img src={dal} style={{ width: "100px" }} />{" "}
               <button style={{ border: "none", outline: "0" }}>DAL</button>
+            </Link>
+          </div>
+          <div class="spinner-grow  text-warning">
+            <Link to="/meat">
+              {" "}
+              <img src={mea}style={{ width: "100px" }} />{" "}
+              <button style={{ border: "none", outline: "0" }}>MEAT</button>
             </Link>
           </div>
         </div>

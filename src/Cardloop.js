@@ -5,6 +5,7 @@ import fruitslogo from "./1.jpg";
 import ricelogo from "./img2.jpg";
 import oillogo from "./img7.jpg";
 import dal from "./img1.jpg";
+import mea from "./mea.jpg" 
 import empty from "./heart.png";
 import filled from "./filledheart.png";
 import img1 from "./carousal3/images1.jpg";
@@ -123,6 +124,13 @@ export default function Cardloop() {
             <Link to="/card2">
               {" "}
               <img src={dal} style={{ width: "100px" }} />{" "}
+              <button style={{ border: "none", outline: "0" }}>DAL</button>
+            </Link>
+          </div>
+          <div class="spinner-grow  text-warning">
+            <Link to="/meat">
+              {" "}
+              <img src={mea}style={{ width: "100px" }} />{" "}
               <button style={{ border: "none", outline: "0" }}>DAL</button>
             </Link>
           </div>

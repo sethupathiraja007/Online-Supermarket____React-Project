@@ -2,24 +2,24 @@ import React, { useEffect, useState } from "react";
 import datas from "./Data.json";
 import img from "./sl1.png";
 import empty from "./heart.png";
-import mea from "./mea.jpg";
 import filled from "./filledheart.png";
 import veglogo from "./tom.jpg";
+import oillogo from "./img7.jpg";
 import fruitslogo from "./1.jpg";
 import ricelogo from "./img2.jpg";
 import dal from "./img1.jpg";
-import img1 from "./oil1.jpg";
+import img1 from "./shop.jpg";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faCartShopping } from "@fortawesome/free-solid-svg-icons";
 import Nav2 from "./Nav2";
 import { Link, useNavigate } from "react-router-dom"; 
 import Foot from "./Foot";
 
-export default function Card3() {
+export default function Meat() {
   
-  const keys = JSON.parse(sessionStorage.getItem("datajson4"));
-  const [Data, setData] = useState(keys ? keys : datas.oil);
-  sessionStorage.setItem("datajson4", JSON.stringify(Data));
+  const keys = JSON.parse(sessionStorage.getItem("datajson5"));
+  const [Data, setData] = useState(keys ? keys : datas.meat);
+  sessionStorage.setItem("datajson5", JSON.stringify(Data));
 
   //button
   const [initial, setInitial] = useState(false);
@@ -75,7 +75,7 @@ export default function Card3() {
     //  CARD3
     <div>
       <Nav2 />
-      <div>
+      <div className="container">
         <img
           src={img1}
           alt="Los Angeles"
@@ -109,6 +109,13 @@ export default function Card3() {
             </Link>
           </div>
           <div class="spinner-grow  text-warning">
+            <Link to="/card3">
+              {" "}
+              <img src={oillogo} style={{ width: "100px" }} />{" "}
+              <button style={{ border: "none", outline: "0" }}>OIL</button>
+            </Link>
+          </div>
+          <div class="spinner-grow  text-warning">
             <Link to="/card1">
               {" "}
               <img src={ricelogo} style={{ width: "100px" }} />{" "}
@@ -120,13 +127,6 @@ export default function Card3() {
               {" "}
               <img src={dal} style={{ width: "100px" }} />{" "}
               <button style={{ border: "none", outline: "0" }}>DAL</button>
-            </Link>
-          </div>
-          <div class="spinner-grow  text-warning">
-            <Link to="/meat">
-              {" "}
-              <img src={mea}style={{ width: "100px" }} />{" "}
-              <button style={{ border: "none", outline: "0" }}>MEAT</button>
             </Link>
           </div>
         </div>
@@ -164,7 +164,7 @@ export default function Card3() {
                       class="card-img-top"
                       src={user.image}
                       alt="Card image"
-                      style={{ width: "40%", height: "40%" }}
+                      style={{ width: "50%", height: "50%" }}
                     />
                   </div>
                   <hr />
@@ -176,7 +176,7 @@ export default function Card3() {
                       }}
                     >
                       <h4 className="card-title">{user.name}</h4>
-                      <p className="card-text">Price ₹{user.detail}/liter</p>
+                      <p className="card-text">Price ₹{user.detail}</p>
                     </div>
                     <hr />
 

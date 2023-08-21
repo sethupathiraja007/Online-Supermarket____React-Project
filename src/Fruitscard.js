@@ -5,6 +5,7 @@ import img2 from "./carousal3/fruit.jpg";
 import Nav2 from "./Nav2";
 import empty from "./heart.png";
 import filled from "./filledheart.png";
+import mea from "./mea.jpg";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faCartShopping } from "@fortawesome/free-solid-svg-icons";
 import { Link, useNavigate } from "react-router-dom";
@@ -121,6 +122,13 @@ export default function Fruitscard() {
               {" "}
               <img src={dal} style={{ width: "100px" }} />{" "}
               <button style={{ border: "none", outline: "0" }}>DAL</button>
+            </Link>
+          </div>
+          <div class="spinner-grow  text-warning">
+            <Link to="/meat">
+              {" "}
+              <img src={mea}style={{ width: "100px" }} />{" "}
+              <button style={{ border: "none", outline: "0" }}>MEAT</button>
             </Link>
           </div>
         </div>

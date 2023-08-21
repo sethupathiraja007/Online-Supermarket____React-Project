@@ -8,7 +8,7 @@ export default function Cart() {
   //user name and detail
   const dataa = JSON.parse(sessionStorage.getItem("values"));
   console.log(dataa);
-  var result = dataa.toUpperCase();
+  var result = dataa.toUpperCase(); 
 
   const [isButtonClicked, setIsButtonClicked] = useState(false);
   const [newdatas, setNewdatas] = useState(() => {

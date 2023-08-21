@@ -4,11 +4,12 @@ import img from "./sl1.png";
 import Nav2 from "./Nav2";
 import empty from "./heart.png";
 import filled from "./filledheart.png";
+import mea from "./mea.jpg";
 import Carousal2 from "./Carousal2";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faCartShopping } from "@fortawesome/free-solid-svg-icons";
 import { Link, useNavigate } from "react-router-dom";
-import veglogo from "./tom.jpg";
+import veglogo from "./tom.jpg"; 
 import fruitslogo from "./1.jpg";
 import ricelogo from "./img2.jpg";
 import oillogo from "./img7.jpg";
@@ -114,6 +115,13 @@ export default function Card2() {
             <button style={{ border: "none", outline: "0" }}>OIL</button>
           </Link>
         </div>
+        <div class="spinner-grow  text-warning">
+            <Link to="/meat">
+              {" "}
+              <img src={mea}style={{ width: "100px" }} />{" "}
+              <button style={{ border: "none", outline: "0" }}>MEAT</button>
+            </Link>
+          </div>
       </div>
       <br />
       <br />

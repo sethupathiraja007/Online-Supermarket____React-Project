@@ -10,7 +10,7 @@ export default function Welcome() {
  
   return (
     <div>
-      {/* NAV BAR */}
+      {/* NAV BAR */} 
       <Nav />
       {/* CAROUSEL */}
       <div

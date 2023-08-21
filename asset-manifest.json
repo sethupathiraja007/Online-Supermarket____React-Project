@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/Online-Supermarket____React-Project/static/css/main.86705bae.css",
-    "main.js": "/Online-Supermarket____React-Project/static/js/main.eb292b80.js",
+    "main.js": "/Online-Supermarket____React-Project/static/js/main.e6cce1d3.js",
     "static/js/787.39bb0775.chunk.js": "/Online-Supermarket____React-Project/static/js/787.39bb0775.chunk.js",
     "static/media/rice.png": "/Online-Supermarket____React-Project/static/media/rice.39315501861bce0715b3.png",
     "static/media/home3.jpg": "/Online-Supermarket____React-Project/static/media/home3.209ed56ca8df92cf5f00.jpg",
@@ -28,11 +28,11 @@
     "static/media/img1.jpg": "/Online-Supermarket____React-Project/static/media/img1.0743ae2c3efbd2a29ed8.jpg",
     "index.html": "/Online-Supermarket____React-Project/index.html",
     "main.86705bae.css.map": "/Online-Supermarket____React-Project/static/css/main.86705bae.css.map",
-    "main.eb292b80.js.map": "/Online-Supermarket____React-Project/static/js/main.eb292b80.js.map",
+    "main.e6cce1d3.js.map": "/Online-Supermarket____React-Project/static/js/main.e6cce1d3.js.map",
     "787.39bb0775.chunk.js.map": "/Online-Supermarket____React-Project/static/js/787.39bb0775.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.86705bae.css",
-    "static/js/main.eb292b80.js"
+    "static/js/main.e6cce1d3.js"
   ]
 }
